@@ -1,6 +1,6 @@
 <script setup lang="ts">
+const props = defineProps({})
 const name = $ref('')
-
 const router = useRouter()
 const go = () => {
   if (name)
@@ -59,6 +59,9 @@ const go = () => {
           i-ic:round-keyboard-double-arrow-down
         />
       </div>
+      <div icon-button>
+        test
+      </div>
     </div>
   </div>
 
@@ -66,3 +69,5 @@ const go = () => {
     test
   </div>
 </template>
+
+<style></style>
