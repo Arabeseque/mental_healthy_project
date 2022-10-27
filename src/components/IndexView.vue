@@ -4,7 +4,7 @@
 <template>
   <div
     flex flex-col items-center justify-center h-100vh relative
-    color-black
+    color-black bg-blend-darken
   >
     <div w-full h-full absolute z--1>
       <video

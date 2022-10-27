@@ -4,7 +4,8 @@
 
 <template>
   <IndexView />
-
+  <!-- <Home /> -->
+  <!-- <Article /> -->
   <!-- <SlidePage /> -->
 </template>
 
