@@ -9,9 +9,12 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    Index: typeof import('./src/components/Index.vue')['default']
+    Index: typeof import('./src/components/IndexView.vue')['default']
     IndexView: typeof import('./src/components/IndexView.vue')['default']
+    LeftZone: typeof import('./src/components/LeftZone.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SlideItem: typeof import('./src/components/SlideItem.vue')['default']
+    SlidePage: typeof import('./src/components/SlidePage.vue')['default']
   }
 }

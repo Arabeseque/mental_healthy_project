@@ -4,6 +4,7 @@
 
 <template>
   <IndexView />
+
+  <!-- <SlidePage /> -->
 </template>
 
-<style></style>
