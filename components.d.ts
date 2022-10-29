@@ -10,7 +10,6 @@ declare module '@vue/runtime-core' {
     Article: typeof import('./src/components/Article.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    Index: typeof import('./src/components/IndexView.vue')['default']
     IndexView: typeof import('./src/components/IndexView.vue')['default']
     LeftZone: typeof import('./src/components/LeftZone.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
