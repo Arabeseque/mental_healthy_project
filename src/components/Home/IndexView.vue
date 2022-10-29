@@ -3,12 +3,14 @@
 
 <template>
   <div
-    flex flex-col items-center justify-center h-100vh relative
-    color-black bg-blend-darken
+    flex flex-col items-center justify-center
+
+    h-100vh relative
+    color-black
   >
     <div w-full h-full absolute z--1>
       <video
-        src="../assets/share.mp4"
+        src="../../assets/share.mp4"
         type="video/mp4"
         loop
         muted
@@ -16,6 +18,7 @@
         w-full h-full object-cover
       />
     </div>
+
     <div w-130 relative left--30 top--10 flex flex-col justify-start>
       <h1
         text-16 font-bold flex justify-start w-130

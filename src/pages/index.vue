@@ -4,6 +4,8 @@
 
 <template>
   <IndexView />
+  <Test />
+  <Text />
   <!-- <Home /> -->
   <!-- <Article /> -->
   <!-- <SlidePage /> -->
