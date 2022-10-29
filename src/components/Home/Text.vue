@@ -1,4 +1,6 @@
 <script>
+// const sp = document.documentElement.scrollHeight
+// console.log(sp)
 export default {
 
 }
@@ -21,13 +23,15 @@ export default {
     </div>
     <div flex gap-20 items-center justify-center pt-30>
       <div
-        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md hover:shadow-xl transition-all
-        duration-200 hover:bg-gray-100 hover:bg-op-100
+        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md
+        hover:shadow-xl transition-all duration-200 hover:bg-gray-100 hover:bg-op-100
       >
         test
       </div>
       <div
-        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md hover:shadow-xl transition-all duration-200 hover:bg-gray-100
+        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md
+        hover:shadow-xl transition-all duration-200
+        hover:bg-gray-100
         hover:bg-op-100
       >
         test
