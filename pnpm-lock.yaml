@@ -13,6 +13,7 @@ specifiers:
   jsdom: ^20.0.0
   ni: ^0.0.2
   pnpm: ^7.12.2
+  smooth-scroll-into-view-if-needed: ^1.1.33
   taze: ^0.8.2
   typescript: ^4.8.3
   unocss: ^0.45.25
@@ -29,6 +30,7 @@ dependencies:
   '@iconify/json': 2.1.128
   '@vueuse/core': 9.3.0_vue@3.2.39
   ni: 0.0.2
+  smooth-scroll-into-view-if-needed: 1.1.33
   vue: 3.2.39
   vue-router: 4.1.5_vue@3.2.39
 
@@ -1145,6 +1147,7 @@ packages:
     resolution: {integrity: sha512-7bVXYj1b76BQriRiTQGoV1t2dw8FECNLYIG1K14csZf4o3R0hxzcj5MENaj1BeRD2ZIB93VEbIPwT7hUkATJWA==}
     hasBin: true
     dependencies:
+      headless: 0.1.7
       merge: 1.0.0
       minimist: 0.0.5
       mkdirp: 0.3.5
@@ -1357,6 +1360,10 @@ packages:
   /commander/2.1.0:
     resolution: {integrity: sha512-J2wnb6TKniXNOtoHS8TSrG9IOQluPrsmyAJ8oCUJOBmv+uLBCyPYAZkD2jFvw2DCzIXNnISIM01NIvr35TkBMQ==}
     engines: {node: '>= 0.6.x'}
+    dev: false
+
+  /compute-scroll-into-view/1.0.17:
+    resolution: {integrity: sha512-j4dx+Fb0URmzbwwMUrhqWM2BEWHdFGx+qZ9qqASHRPqvTYdqvWnHg0H1hIbcyLnvgnoNAVMlwkepyqM3DaIFUg==}
     dev: false
 
   /concat-map/0.0.1:
@@ -2691,6 +2698,11 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /headless/0.1.7:
+    resolution: {integrity: sha512-DVElHM0BOZdI4fPJFZGm1CmM1zlCHLYZg6kKK8iZzmNZowQ+YHVyo2v5kNdylGpwUMtV6moWugriPvqXx6Uodg==}
+    engines: {node: '>=0.6'}
+    dev: false
 
   /hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
@@ -4271,6 +4283,12 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
+  /scroll-into-view-if-needed/2.2.29:
+    resolution: {integrity: sha512-hxpAR6AN+Gh53AdAimHM6C8oTN1ppwVZITihix+WqalywBeFcQ6LdQP5ABNl26nX8GTEL7VT+b8lKpdqq65wXg==}
+    dependencies:
+      compute-scroll-into-view: 1.0.17
+    dev: false
+
   /scule/0.3.2:
     resolution: {integrity: sha512-zIvPdjOH8fv8CgrPT5eqtxHQXmPNnV/vHJYffZhE43KZkvULvpCTvOt1HPlFaCZx287INL9qaqrZg34e8NgI4g==}
     dev: true
@@ -4353,6 +4371,12 @@ packages:
     resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
     engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
     dev: true
+
+  /smooth-scroll-into-view-if-needed/1.1.33:
+    resolution: {integrity: sha512-crS8NfAaoPrtVYOCMSAnO2vHRgUp22NiiDgEQ7YiaAy5xe2jmR19Jm+QdL8+97gO8ENd7PUyQIAQojJyIiyRHw==}
+    dependencies:
+      scroll-into-view-if-needed: 2.2.29
+    dev: false
 
   /socket.io-client/0.9.16:
     resolution: {integrity: sha512-wSM7PKJkzpGqUAo6d6SAn+ph4xeQJ6nzyDULRJAX1G7e6Xm0wNuMh2RpNvwXrHMzoV9Or5hti7LINiQAm1H2yA==}

@@ -1,13 +1,11 @@
 <script>
-// const sp = document.documentElement.scrollHeight
-// console.log(sp)
 export default {
 
 }
 </script>
 
 <template>
-  <div h-100vh relative>
+  <div h-100vh relative bg-blue>
     <div
       py-2 w-full bg-blue absolute
       top-0 left-0 pl-30 pr-30
@@ -21,15 +19,15 @@ export default {
         <a href="">个人首页</a>
       </div>
     </div>
-    <div flex gap-20 items-center justify-center pt-30>
+    <div flex gap-20 justify-center pt-30>
       <div
-        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md
+        w-120 h-150 bg-gray-100 bg-op-80 rounded-md shadow-md
         hover:shadow-xl transition-all duration-200 hover:bg-gray-100 hover:bg-op-100
       >
         test
       </div>
       <div
-        w-120 h-180 bg-gray-100 bg-op-80 rounded-md shadow-md
+        w-120 h-150 bg-gray-100 bg-op-80 rounded-md shadow-md
         hover:shadow-xl transition-all duration-200
         hover:bg-gray-100
         hover:bg-op-100
