@@ -1,34 +1,37 @@
 <script>
 export default {
-
+  data() {
+    return {
+      var: ['牛逼', '更牛逼', '只在牛逼', 5, 6],
+    }
+  },
 }
 </script>
 
 <template>
-  <div h-100vh bg-bluegray rounded-10 m-20 flex justify-center items-center>
-    <div
-      h-30rem w-300rem
-      flex relative justify-evenly
-    >
-      <!-- <div h-20rem w-full bg-red /> -->
+  <div h-100vh bg-bluegray rounded-10 m-10>
+    <div h-3rem>
+      书籍推荐
+    </div>
+    <div h-full flex justify-center>
       <div
-        w-20rem h-26rem rounded-12 bg-pink shadow-md
-        transform motion-safe:hover:-translate-y-6
+        p-15
+        h-40rem m-auto
+        overflow-x-scroll whitespace-nowrap
       >
-        666
-      </div>
-      <div w-20rem h-26rem rounded-12 bg-blue>
-        666
-      </div>
-      <div w-20rem h-26rem rounded-12 bg-amber>
-        666
-      </div>
-      <div w-20rem h-26rem rounded-12 bg-dark color-red>
-        666
-      </div>
+        <div
 
-      <!-- <div w-40rem h-40rem bg-blue /> -->
-      <!-- <div w-40rem h-40rem bg-amber /> -->
+          v-for="(item,index) in var" :key="index"
+          w-400px h-26rem rounded-12 bg-pink shadow-xl
+          inline-block hover:-translate-x-8 hover:-translate-y-8 hover:w-30em hover:rotate-9 transition-all
+          duration-300
+        />
+        {{ item }}
+      </div>
+      <!-- 想添加脚注 -->
+      <!-- <div h-2rem left-0>
+      书籍推荐
+    </div> -->
     </div>
   </div>
 </template>
