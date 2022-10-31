@@ -2,40 +2,38 @@
 export default {
   data() {
     return {
-      var: ['牛逼', '更牛逼', '只在牛逼', 5, 6],
+      var: [1, 2, 3, 5],
     }
   },
 }
 </script>
 
 <template>
-  <div h-100vh bg-bluegray rounded-10 m-10>
-    <div h-3rem>
-      书籍推荐
+  <div class="bg-[#F1FFE5]" h-100vh>
+    <div h-8rem text-4xl text-center flex items-center justify-center>
+      <p>书籍推荐</p>
     </div>
     <div h-full flex justify-center>
       <div
-        p-15
-        h-40rem m-auto
+        p-l-40 p-t-20
+        h-50rem m-auto
         overflow-x-scroll whitespace-nowrap
       >
         <div
-
-          v-for="(item,index) in var" :key="index"
-          w-400px h-26rem rounded-12 bg-pink shadow-xl
-          inline-block hover:-translate-x-8 hover:-translate-y-8 hover:w-30em hover:rotate-9 transition-all
+          v-for="(item,index) in var"
+          m-l--10 p-l-4 class="bg-[#FDF7D2]"
+          w-30rem h-40rem rounded-12 shadow-xl
+          inline-block hover:-translate-y-10 hover:rotate-9 hover:w-34em transition-all
           duration-300
         />
-        {{ item }}
+        这是书籍
       </div>
-      <!-- 想添加脚注 -->
-      <!-- <div h-2rem left-0>
-      书籍推荐
-    </div> -->
     </div>
   </div>
 </template>
 
 <style>
-
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
 </style>

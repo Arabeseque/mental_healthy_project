@@ -51,8 +51,10 @@ function mouseHandle(event) {
   <Moive id="video" />
   <!-- <Home /> -->
   <Text id="nav" />
-  <!-- <SlidePage /> -->
+
   <Book />
+  <SlidePage />
+  <Footer />
 </template>
 
 <style>
