@@ -54,7 +54,8 @@ function mouseHandle(event) {
   <Book />
   <Movie />
   <Cartoon />
-  <SlidePage />
+  <Test />
+  <!-- <SlidePage /> -->
   <!-- <Footer /> -->
 </template>
 

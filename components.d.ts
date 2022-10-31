@@ -13,13 +13,14 @@ declare module '@vue/runtime-core' {
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     LeftZone: typeof import('./src/components/LeftZone.vue')['default']
+    Moive: typeof import('./src/components/Home/Moive.vue')['default']
     Movie: typeof import('./src/components/Home/Movie.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SlideItem: typeof import('./src/components/SlideItem.vue')['default']
     SlidePage: typeof import('./src/components/SlidePage.vue')['default']
+    Test: typeof import('./src/components/Home/Test.vue')['default']
     Text: typeof import('./src/components/Home/Text.vue')['default']
     Video: typeof import('./src/components/Home/Video.vue')['default']
-    Video1: typeof import('./src/components/Home/Video1.vue')['default']
   }
 }
