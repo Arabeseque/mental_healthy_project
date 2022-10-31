@@ -48,13 +48,14 @@ function mouseHandle(event) {
 </script>
 
 <template>
-  <Moive id="video" />
+  <Video id="video" />
   <!-- <Home /> -->
   <Text id="nav" />
-
   <Book />
+  <Movie />
+  <Cartoon />
   <SlidePage />
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style>
