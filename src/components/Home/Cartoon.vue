@@ -5,18 +5,12 @@ export default {
 </script>
 
 <template>
-  <div h-100vh w-full>
-    <div p-15 gap-12>
-      <div h-22rem w-35rem inline-block bg-blue>
+  <div h-100vh bg-red-200 justify-center flex items-center rounded-xl>
+    <div flex justify-between items-center gap-20>
+      <div h-15rem w-20rem bg-blue-200>
         1
       </div>
-      <div h-22rem w-35rem inline-block bg-blue>
-        1
-      </div>
-      <div h-22rem w-35rem inline-block bg-blue>
-        1
-      </div>
-      <div h-22rem w-35rem inline-block bg-blue>
+      <div h-15rem w-20rem bg-blue-200>
         1
       </div>
     </div>

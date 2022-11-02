@@ -53,8 +53,8 @@ function mouseHandle(event) {
   <Text id="nav" />
   <Book />
   <Movie />
-  <Cartoon />
-  <SlidePage />
+  <!-- <Cartoon /> -->
+  <!-- <SlidePage /> -->
   <!-- <Footer /> -->
 </template>
 

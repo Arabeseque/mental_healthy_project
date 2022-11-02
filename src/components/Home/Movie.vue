@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-[#ffd276]" h-100vh w-100vw items-center justify-center flex>
+  <div class="bg-[#ffd276]" h-100vh w-100vw items-center justify-center flex rounded-xl>
     <div h-40rem w-90rem flex justify-between>
       <div class="bg-tv bg-auto bg-no-repeat bg-center bg-origin-border bg-cover" bg-emerald w-60rem />
       <div w-40rem class="color-[#9017D1]" text-6 flex justify-center items-center>
