@@ -51,9 +51,10 @@ function mouseHandle(event) {
   <div id="video">
     <Video />
   </div>
-  <div id="nav" relative>
-    <div sticky h-100vh top-0 bg-blue>
-      <Text />
+  <First id="nav" />
+  <div relative>
+    <div sticky h-100vh top-0 bg-blue-100>
+      <!-- <Text /> -->
     </div>
     <div
       sticky h-100vh top-20 bg-black

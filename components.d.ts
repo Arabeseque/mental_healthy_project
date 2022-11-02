@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     Book: typeof import('./src/components/Home/Book.vue')['default']
     Cartoon: typeof import('./src/components/Home/Cartoon.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
+    First: typeof import('./src/components/Home/First.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     LeftZone: typeof import('./src/components/LeftZone.vue')['default']
     Movie: typeof import('./src/components/Home/Movie.vue')['default']
