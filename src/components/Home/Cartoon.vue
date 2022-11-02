@@ -1,5 +1,24 @@
 <script>
 export default {
+  data() {
+    return {
+      cartoon: [{
+        content: 'https://p1.ssl.qhimgs1.com/sdr/_240_/t01c166f44788d458f1.jpg',
+      },
+      {
+
+        content: 'https://p1.ssl.qhimgs1.com/sdr/_240_/t01c166f44788d458f1.jpg',
+      },
+      {
+
+        content: 'https://p1.ssl.qhimgs1.com/sdr/_240_/t01c166f44788d458f1.jpg',
+      },
+      {
+
+        content: 'https://p1.ssl.qhimgs1.com/sdr/_240_/t01c166f44788d458f1.jpg',
+      }],
+    }
+  },
 
 }
 </script>

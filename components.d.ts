@@ -18,8 +18,8 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     SlideItem: typeof import('./src/components/SlideItem.vue')['default']
     SlidePage: typeof import('./src/components/SlidePage.vue')['default']
+    Test: typeof import('./src/components/Home/Test.vue')['default']
     Text: typeof import('./src/components/Home/Text.vue')['default']
     Video: typeof import('./src/components/Home/Video.vue')['default']
-    Video1: typeof import('./src/components/Home/Video1.vue')['default']
   }
 }
