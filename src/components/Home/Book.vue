@@ -10,9 +10,6 @@ export default {
 
 <template>
   <div class="bg-[#F1FFE5]" h-100vh rounded-xl>
-    <div h-8rem text-4xl text-center flex items-center justify-between p-l-10>
-      <p>--书籍推荐</p>
-    </div>
     <div h-40rem flex justify-center>
       <div
         p-l-40 p-t-20

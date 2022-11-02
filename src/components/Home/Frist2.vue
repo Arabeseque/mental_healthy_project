@@ -6,7 +6,6 @@ export default {
 
 <template>
   <div h-100vh relative class="bg-[#CAEDEB]" rounded-l-xl>
-    <p>test</p>
     <div
       py-2 w-full class="bg-[#CAEDEB]" absolute top-0 left-0 pl-30 pr-30 inline-block flex justify-between
       items-center
@@ -21,16 +20,21 @@ export default {
         <a href="">个人首页</a>
       </div>
     </div>
-    <div absolute left-30rem top-23rem>
-      <div text-20 text-left>
-        WelCome !
+    <div flex gap-20 justify-center pt-30>
+      <div
+        w-120 h-150 class="bg-[#FFE1E0]" bg-op-80 rounded-md shadow-md
+        hover:shadow-xl transition-all duration-200 hover:bg-gray-100 hover:bg-op-100
+      >
+        test
       </div>
-      <p text-8 text-left>
-        欢迎来到本页面！我们将会为您推荐最合理的解决方案！请向下滚动以继续！
-      </p>
-      <p text-left>
-        Welcome to this page! We will recommend the most reasonable solution for you!
-      </p>
+      <div
+        w-120 h-150 class="bg-[#FFE1E0]" bg-op-80 rounded-md shadow-md
+        hover:shadow-xl transition-all duration-200
+        hover:bg-gray-100
+        hover:bg-op-100
+      >
+        test
+      </div>
     </div>
   </div>
 </template>
