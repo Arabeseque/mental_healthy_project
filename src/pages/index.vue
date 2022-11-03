@@ -54,7 +54,7 @@ function mouseHandle(event) {
 
   <div relative>
     <div sticky h-100vh top-0 bg-blue-100>
-      <!-- <Text /> --><First id="nav" />
+      <First id="nav" />
     </div>
     <div
       sticky h-100vh top-20 class="bg-[#F1FFE5]"

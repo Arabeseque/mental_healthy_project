@@ -1,6 +1,26 @@
-<script>
-export default {
+<script setup lang="ts">
+const route = [
+  {
+    name: '首页',
+    path: '/',
+  },
+  {
+    name: '案例',
+    path: '/about',
+  },
+  {
+    name: '推荐',
+    path: '/contact',
+  },
+  {
+    name: '个人首页',
+    path: '/personal',
+  },
+]
 
+const router = useRouter()
+const handleRoute = (path: any) => {
+  router.push(path)
 }
 </script>
 
@@ -14,11 +34,17 @@ export default {
       <a href="">
         <div font-black text-5xl>logo</div>
       </a>
-      <div space-x-8 class="color-[#684F36]" text-2xl>
-        <a href="">首页</a>
-        <a href="">案例</a>
-        <a href="">推荐</a>
-        <a href="">个人首页</a>
+      <div
+        class="color-[#684F36]" text-2xl flex items-center justify-center gap-8
+      >
+        <div
+          v-for="item in route"
+          :key="item.name"
+          cursor-pointer
+          @click="handleRoute(item.path)"
+        >
+          {{ item.name }}
+        </div>
       </div>
     </div>
     <div absolute left-30rem top-23rem>
